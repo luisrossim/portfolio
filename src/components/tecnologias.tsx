@@ -16,10 +16,11 @@ import pg from '../assets/icon-postgre.png';
 export function Tecnologias(){
     return (
         <div className="bg-black">
-            <div id="tecnologias" className="container mx-auto px-2 md:px-6 py-28 mt-20">
+            <div id="tecnologias" className="container mx-auto px-2 md:px-10 py-28">
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4'>
                     <div id='bg-tecnologias'></div>
                     <div className="flex flex-col gap-6 text-slate-300 px-4">
+                    <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">Tecnologias</h1>
                         <div id="conhecimentos" className="flex flex-col gap-2 mb-8">
                             <h2 className="text-2xl font-semibold mb-2">Linguagens <small className="text-zinc-400">(7)</small></h2>
                             <div className="flex items-center gap-2">
