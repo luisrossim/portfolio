@@ -1,19 +1,17 @@
-import { Experiencias } from "./components/experiencias"
 import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Profile } from "./components/profile"
-import { Projetos } from "./components/projetos"
-import { Tecnologias } from "./components/tecnologias"
+import { Projects } from "./components/projects"
 
 function App() {
   return (
     <>
-      <Header/>
-      <Profile/>
-      <Projetos/>
-      <Tecnologias/>
-      <Experiencias/>
-      <Footer/>
+      <Header />
+      <main className="container mx-auto px-2 md:px-10">
+        <Profile />
+        <Projects />
+      </main>
+      <Footer />
     </>
   )
 }
