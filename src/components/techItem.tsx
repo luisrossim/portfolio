@@ -10,7 +10,7 @@ export function Techitem({ name, icon, progress }: TechItemProps){
     return (
         <div className="icon-text">
             <img className="w-[20px]" src={icon} alt={name} />
-            <p className="font-light w-[120px]">{name}</p>
+            <p className="font-light text-slate-300 w-[120px]">{name}</p>
             <Progress value={progress} />
         </div>
     )

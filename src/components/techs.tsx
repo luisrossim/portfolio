@@ -34,7 +34,7 @@ const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
         </h2>
         <div className="flex flex-wrap gap-1">
             { techData.map((outro, index) => (
-                <span key={index} className="font-light">
+                <span key={index} className="font-light text-neutral-300">
                     {outro}
                     {((index + 1) == techData.length) ? "." : ", "}
                 </span>
@@ -47,7 +47,7 @@ export function Techs(){
     return (
         <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-5 bg-slate-900 text-slate-200">
             <TechSection title="Linguagens" techData={linguagens} />
-            <TechSection title="Ferramentas" techData={ferramentas} />
+            <TechSection title="Ferramentas e Bibliotecas" techData={ferramentas} />
             <TechSection title="Banco de dados" techData={databases} />
             <TechSectionString title="Outros" techData={outros} />
         </section>

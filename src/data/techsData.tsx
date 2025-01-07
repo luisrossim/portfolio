@@ -17,7 +17,7 @@ export const linguagens = [
     { name: 'CSS', icon: css, progress: 100 },
     { name: 'JavaScript', icon: js, progress: 90 },
     { name: 'TypeScript', icon: ts, progress: 80 },
-    { name: 'Java', icon: java, progress: 70 },
+    { name: 'Java', icon: java, progress: 80 },
     { name: 'PHP', icon: php, progress: 60 }
 ]
 
@@ -35,6 +35,6 @@ export const databases = [
 ]
 
 export const outros = [
-    'JQuery', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
-    'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman'
+    'JQuery', 'NGINX', 'API REST', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
+    'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Flutter'
 ]

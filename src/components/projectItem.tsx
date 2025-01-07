@@ -8,8 +8,13 @@ export function ProjectItem() {
       { projectsData.map((projeto) => (
         <div key={projeto.id} id={`card-projeto-${projeto.id}`} className="bg-slate-50 p-5 border rounded-xl">
           <div className="flex flex-col gap-1">
-            <h1 className="text-xl md:text-2xl font-semibold">{projeto.title}</h1>
-            <p>{projeto.description}</p>
+            <div className="flex flex-wrap gap-4 mb-2">
+              { projeto.techIcons.map((icon) => (
+                <img width={'30px'} src={icon} alt="icon-svg" />
+              )) }
+            </div>
+            <h1 className="text-xl md:text-2xl font-bold">{projeto.title}</h1>
+            <p className="text-slate-800">{projeto.description}</p>
             
             { projeto.repositorio 
               ?
@@ -38,7 +43,7 @@ export function ProjectItem() {
           </div>
             
           {/* Funcionalidades */}
-          <h3 className="flex items-center gap-2 text-lg font-medium mb-2">
+          <h3 className="flex items-center gap-2 text-lg font-semibold mb-2">
             <Sparkles size={"20px"} /> Principais funcionalidades:
           </h3>
           <ul className="pl-8 mb-6">
@@ -50,7 +55,7 @@ export function ProjectItem() {
           </ul>
 
           {/* Tecnologias */}
-          <h3 className="flex items-center gap-2 text-lg font-medium mb-2">
+          <h3 className="flex items-center gap-2 text-lg font-semibold mb-2">
             <Moon size={"20px"} /> Tecnologias:
           </h3>
           <ul className="pl-8">
