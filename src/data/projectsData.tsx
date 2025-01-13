@@ -35,7 +35,7 @@ import postgreIcon from "../assets/icon-postgre.png"
 export const projectsData = [
     {
       id: 1,
-      title: "Eletrônica v2 (Angular 19 + Java Spring)",
+      title: "Eletrônica v2",
       repositorio: "https://github.com/luisrossim/eletron",
       deploy: null,
       year: "2024 - 2025",
@@ -62,7 +62,7 @@ export const projectsData = [
     },
     {
       id: 2,
-      title: "Sistema de QUIZ (CodeIgniter)",
+      title: "Sistema de QUIZ",
       repositorio: "https://github.com/luisrossim/quiz",
       deploy: null,
       year: "2024",
@@ -86,7 +86,7 @@ export const projectsData = [
     },
     {
       id: 3,
-      title: "Sistema Parcerias (Angular 15 + Java Spring)",
+      title: "Sistema Parcerias",
       repositorio: null,
       deploy: null,
       year: "2023 - 2024",
@@ -106,7 +106,7 @@ export const projectsData = [
     },
     {
       id: 4,
-      title: "Zun (JavaScript Vanilla)",
+      title: "Zun (JS Vanilla)",
       repositorio: "https://github.com/luisrossim/zun-js-vanilla",
       deploy: "https://luisrossim.github.io/zun-js-vanilla",
       year: "2024",
@@ -129,7 +129,7 @@ export const projectsData = [
     },
     {
       id: 5,
-      title: "Eletrônica v1 (Java + Hibernate)",
+      title: "Eletrônica v1",
       repositorio: "https://github.com/luisrossim/eletronica-java",
       deploy: null,
       year: "2023",

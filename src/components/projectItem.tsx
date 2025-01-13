@@ -6,15 +6,15 @@ export function ProjectItem() {
   return (
     <>
       { projectsData.map((projeto) => (
-        <div key={projeto.id} id={`card-projeto-${projeto.id}`} className="bg-slate-50 p-8 border rounded-xl">
+        <div key={projeto.id} id={`card-projeto-${projeto.id}`} className="bg-slate-50 p-4 md:p-8 border rounded-xl">
           <div className="flex flex-col gap-1">
-            <div className="flex flex-wrap gap-4 mb-2">
+            <div className="flex flex-wrap gap-4 mb-4">
               { projeto.techIcons.map((icon) => (
-                <img width={'30px'} src={icon} alt="icon-svg" />
+                <img width={'25px'} src={icon} alt="icon-svg" />
               )) }
             </div>
-            <h1 className="text-xl md:text-2xl font-bold">{projeto.title}</h1>
-            <p className="text-slate-800">{projeto.description}</p>
+            <h1 className="text-2xl md:text-3xl font-bold">{projeto.title}</h1>
+            <p className="font-light">{projeto.description}</p>
             
             { projeto.repositorio 
               ?
@@ -37,7 +37,7 @@ export function ProjectItem() {
               </div>
             }
 
-            <h3 className="flex items-center gap-2 text-lg font-light mb-4">
+            <h3 className="flex items-center gap-2 font-light mb-4">
               <Calendar size={"20px"} /> {projeto.year}
             </h3>
           </div>
@@ -47,7 +47,7 @@ export function ProjectItem() {
               <h3 className="flex items-center gap-2 text-lg font-semibold mb-2">
                 <Sparkles size={"20px"} /> Principais funcionalidades:
               </h3>
-              <ul className="pl-8 mb-6">
+              <ul className="pl-8 mb-6 font-light">
                 {projeto.features.map((feature, index) => (
                   <li key={index}>
                     - {feature.name}
@@ -58,7 +58,7 @@ export function ProjectItem() {
               <h3 className="flex items-center gap-2 text-lg font-semibold mb-2">
                 <Moon size={"20px"} /> Tecnologias:
               </h3>
-              <ul className="pl-8">
+              <ul className="pl-8 font-light">
                 {projeto.technologies.map((tech, index) => (
                   <li key={index}>- {tech}</li>
                 ))}
