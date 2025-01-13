@@ -35,7 +35,7 @@ import postgreIcon from "../assets/icon-postgre.png"
 export const projectsData = [
     {
       id: 1,
-      title: "Eletrônica V2 (Angular 19 + Java Spring)",
+      title: "Eletrônica v2 (Angular 19 + Java Spring)",
       repositorio: "https://github.com/luisrossim/eletron",
       deploy: null,
       year: "2024 - 2025",
@@ -66,7 +66,7 @@ export const projectsData = [
       repositorio: "https://github.com/luisrossim/quiz",
       deploy: null,
       year: "2024",
-      description: `Um sistema de gestão para jogos QUIZ, sendo possível cadastrar eventos, administradores, equipes e questões. O administrador realiza login no sistema e as equipes entram utilizando a funcionalidade de cookies sem necessidade de senha. O administrador é capaz de acompanhar a dinâmica, liberar questões, exibir resultados (pontuação e tempo de resposta de cada equipe) em tempo real. As equipes entram no sistema somente para responder as questões. As questões possuem um tempo limite para serem respondidas e uma pontuação, o sistema atribui automaticamente a pontuação da equipe de acordo com acerto, erro ou pela condição do tempo de envio.`,
+      description: `Um sistema de gestão para jogos QUIZ.`,
       features: [
           { name: "Arquitetura MVC" },
           { name: "Login, Recuperar senha (CodeIgniter Session)" },
@@ -90,7 +90,7 @@ export const projectsData = [
       repositorio: null,
       deploy: null,
       year: "2023 - 2024",
-      description: `O sistema Parcerias é uma plataforma integrada para facilitar a criação, gestão e acompanhamento de propostas e parcerias entre os campi do Instituto Federal do Espírito Santo (Ifes) e instituições externas. Empresas interessadas podem se cadastrar e enviar propostas direcionadas a um ou mais campi, incluindo documentação e informações gerais, que são analisadas pelos coordenadores responsáveis de cada campi. O sistema organiza os usuários em 4 tipos de atores com papéis bem definidos, como envio e validação de documentos, gerenciamento de projetos e visualização de informações sensíveis. O fluxo de propostas e parcerias seguem regras específicas distribuídas em um total de 12 estados (Aguardando documentação, Em análise, Habilitada, Pendente, Em execução, Cancelada, Aditamento, Finalizada, etc...), cada estado com suas regras de negocio bem definidas, como por exemplo, documentos obrigatório, atores responsáveis em enviar documentacao, validar documentos e visualizar informações sigilosas.`,
+      description: `O sistema Parcerias é uma plataforma integrada para facilitar a criação, gestão e acompanhamento de propostas e parcerias entre os campi do Instituto Federal do Espírito Santo e empresas.`,
       features: [
           { name: "Cadastro, Login, Recuperar senha (ngx-cookies, JWT)" },
           { name: "Fluxo de estados com State Pattern" },
@@ -98,7 +98,7 @@ export const projectsData = [
           { name: "Upload de arquivos" },
           { name: "Envio de e-mails automáticos customizáveis" },
           { name: "Página para relatórios e gráficos estatísticos (Chart.js, PrimeNG)" },
-          { name: "4 tipos de atores" },
+          { name: "4 atores" },
       ],
       technologies: ["Angular 15 (TypeScript)", "Spring (Java)", "MySQL", "PrimeNG", "JQuery"],
       images: [parcerias1, parcerias2, parcerias3, parcerias4, parcerias5],
@@ -129,11 +129,11 @@ export const projectsData = [
     },
     {
       id: 5,
-      title: "Eletrônica V1 (Java + Hibernate)",
+      title: "Eletrônica v1 (Java + Hibernate)",
       repositorio: "https://github.com/luisrossim/eletronica-java",
       deploy: null,
       year: "2023",
-      description: `Um sistema de gestão com java puro referente ao conserto de eletrônicos, venda de reformados e controle geral. Projeto realizado para fins de aprendizagem da programação orientada a objetos e hibernate.`,
+      description: `Um sistema de gestão com java vanilla referente ao conserto de eletrônicos, venda de reformados e controle geral. Projeto realizado para fins de aprendizagem da programação orientada a objetos e hibernate.`,
       features: [
           { name: "Login" },
           { name: "CRUD de eletronicos" },

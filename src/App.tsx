@@ -9,6 +9,7 @@ function App() {
       <Header />
       <main className="container mx-auto px-2 md:px-10">
         <Profile />
+        <hr></hr>
         <Projects />
       </main>
       <Footer />

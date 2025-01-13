@@ -45,7 +45,7 @@ const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
 
 export function Techs(){
     return (
-        <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-5 bg-slate-900 text-slate-200">
+        <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-6 bg-slate-900 text-slate-200">
             <TechSection title="Linguagens" techData={linguagens} />
             <TechSection title="Ferramentas e Bibliotecas" techData={ferramentas} />
             <TechSection title="Banco de dados" techData={databases} />
