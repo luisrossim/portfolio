@@ -12,8 +12,8 @@ interface TechSectionStringProps {
 }
 
 const TechSection = ({ title, techData }: TechSectionProps) => (
-    <div className="flex flex-col gap-5 text-slate-300 my-2">
-        <div className="flex items-center gap-2">
+    <div className="flex flex-col gap-3 text-slate-300 my-2">
+        <div className="flex items-center justify-between gap-2">
             <h1 className="text-2xl font-semibold">{title}</h1>
             <span className="font-extralight">({techData.length})</span>
         </div>
@@ -46,11 +46,13 @@ const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
 
 export function Techs(){
     return (
-        <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-8 bg-slate-800 text-slate-200">
-            <TechSection title="Linguagens" techData={linguagens} />
-            <TechSection title="Ferramentas, Bibliotecas e Plataformas" techData={ferramentas} />
-            <TechSection title="Banco de dados" techData={databases} />
-            <TechSectionString title="Outros" techData={outros} />
+        <section className="container max-w-[90rem] mx-auto px-0 md:px-6 pb-36">
+            <div className="flex flex-col gap-12 rounded-none md:rounded-2xl p-8 bg-slate-800 text-slate-200">
+                <TechSection title="Linguagens" techData={linguagens} />
+                <TechSection title="Ferramentas, Bibliotecas e Plataformas" techData={ferramentas} />
+                <TechSection title="Banco de dados" techData={databases} />
+                <TechSectionString title="Outros" techData={outros} />
+            </div>
         </section>
     )
 }

@@ -24,7 +24,7 @@ export function ProjectItem({...props}: ProjectItemProps) {
         </div>
 
         <div className="flex flex-col gap-1 py-4">
-          <h1 className="text-xl md:text-2xl font-semibold text-slate-800">{props.title}</h1>
+          <h1 className="text-2xl md:text-3xl font-semibold text-slate-800">{props.title}</h1>
           <p className="text-slate-600">{props.description}</p>
         </div>
 
