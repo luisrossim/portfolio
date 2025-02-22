@@ -12,10 +12,11 @@ interface TechSectionStringProps {
 }
 
 const TechSection = ({ title, techData }: TechSectionProps) => (
-    <div className="flex flex-col gap-2">
-        <h2 className="text-xl md:text-2xl font-semibold mb-1">
-            {title} <small className="font-extralight">({techData.length})</small>
-        </h2>
+    <div className="flex flex-col gap-5 text-slate-300 my-2">
+        <div className="flex items-center gap-2">
+            <h1 className="text-2xl font-semibold">{title}</h1>
+            <span className="font-extralight">({techData.length})</span>
+        </div>
         { techData.map((tech) => (
             <Techitem
                 key={tech.name}
@@ -45,9 +46,9 @@ const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
 
 export function Techs(){
     return (
-        <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-6 bg-slate-900 text-slate-200">
+        <section id="tecnologias" className="flex flex-col gap-12 border rounded-xl p-8 bg-slate-800 text-slate-200">
             <TechSection title="Linguagens" techData={linguagens} />
-            <TechSection title="Ferramentas e Bibliotecas" techData={ferramentas} />
+            <TechSection title="Ferramentas, Bibliotecas e Plataformas" techData={ferramentas} />
             <TechSection title="Banco de dados" techData={databases} />
             <TechSectionString title="Outros" techData={outros} />
         </section>

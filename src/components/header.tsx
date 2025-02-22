@@ -1,12 +1,32 @@
 import { BriefcaseBusiness, RefreshCcw } from "lucide-react";
+import { ReactElement } from "react";
+
+
+interface HeaderProps {
+    text: string
+    icon: ReactElement
+}
+
+
+const HeaderItem = ({text, icon}: HeaderProps) => {
+    return (
+        <div className="flex items-center gap-2">
+            {icon}
+            <p className="text-sm">{text}</p>
+        </div>
+    )
+}
+
 
 export function Header(){
     return (
-        <header className="fixed top-0 left-0 w-full z-50 text-slate-700 font-light bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
-            <div className="container mx-auto px-4 md:px-10 py-2">
-                <div className="flex justify-between gap-2">
-                    <small className="icon-text"><BriefcaseBusiness size={'12px'} /> Portfolio - Luis Gustavo Leal Rossim</small>
-                    <small className="icon-text"><RefreshCcw size={'11px'} /> 03/01/2025</small>
+        <header 
+            className="fixed top-0 left-0 w-full z-50 text-slate-700 bg-white/50 backdrop-blur-lg border-b"
+        >
+            <div className="container max-w-[90rem] mx-auto px-6 py-4">
+                <div className="flex flex-wrap justify-between gap-2">
+                    <HeaderItem text="Portfolio - Luis Gustavo Leal Rossim" icon={<BriefcaseBusiness size={'12px'} />} />
+                    <HeaderItem text="22/02/2025" icon={<RefreshCcw size={'11px'} />} />
                 </div>
             </div>
         </header>

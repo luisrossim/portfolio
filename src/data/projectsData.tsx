@@ -23,123 +23,187 @@ import eletron1 from "../assets/eletron1.png";
 import eletron2 from "../assets/eletron2.png";
 import eletron3 from "../assets/eletron3.png";
 import eletron4 from "../assets/eletron4.png";
+import atip1 from "../assets/atip1.png";
+import atip2 from "../assets/atip2.png";
+import atip3 from "../assets/atip3.png";
+import atip4 from "../assets/atip4.png";
+import atip5 from "../assets/atip5.png";
 import phpIcon from "../assets/icon-php.svg"
+import express from "../assets/express.svg"
+import nodejs from "../assets/nodejs.svg"
 import ciIcon from "../assets/icon-ci.svg"
 import angularIcon from "../assets/icon-angular.png"
 import springIcon from "../assets/icon-spring.svg"
+import nextIcon from "../assets/icon-nextjs.svg"
+import tsIcon from "../assets/icon-ts.png"
+import reactIcon from "../assets/icon-react.svg"
 import javaIcon from "../assets/icon-java.svg"
 import jsIcon from "../assets/icon-js.png"
 import mysqlIcon from "../assets/icon-mysql.png"
 import postgreIcon from "../assets/icon-postgre.png"
+import mobile from "../assets/mobile.png";
+import mobile2 from "../assets/mobile2.png";
 
 export const projectsData = [
     {
-      id: 1,
       title: "Eletrônica v2",
       repositorio: "https://github.com/luisrossim/eletron",
       deploy: null,
       year: "2024 - 2025",
       description: "Sistema de gestão de uma eletrônica.",
       features: [
-          { name: "Login (ngx-cookies, JWT)" },
-          { name: "User Roles" },
-          { name: "Guardas de rota" },
-          { name: "HTTP Interceptor" },
-          { name: "State Pattern" },
-          { name: "API's (endpoints) públicas e privadas" },
-          { name: "Exception Handler" },
-          { name: "Swagger" },
-          { name: "Logs" },
-          { name: "Leaflet Map" },
-          { name: "GSAP" },
-          { name: "CRUD de eletronicos" },
-          { name: "CRUD de serviço" },
-          { name: "CRUD de vendas" },
+          "Login (ngx-cookies, JWT)",
+          "User Roles",
+          "Guardas de rota",
+          "HTTP Interceptor",
+          "State Pattern",
+          "API's (endpoints) públicas e privadas",
+          "Exception Handler",
+          "Swagger",
+          "Logs",
+          "Leaflet Map",
+          "GSAP",
+          "CRUD de eletronicos",
+          "CRUD de serviço",
+          "CRUD de vendas",
       ],
       technologies: ["Angular 19 (TypeScript)", "Spring (Java)", "PostgreSQL", "PrimeNG", "TailwindCSS"],
       images: [eletron1, eletron2, eletron3, eletron4],
       techIcons: [angularIcon, springIcon, postgreIcon]
     },
     {
-      id: 2,
+      title: "Aplicativo para gestão financeira",
+      repositorio: null,
+      deploy: null,
+      year: "2025",
+      description: "Um aplicativo para extrair informações e acompanhar as operações da sua empresa. Com dashboards de vendas, tipo de pagamento, vendedor, itens, etc. Filtros para acompanhar vendas, caixa e recebimentos",
+      features: [
+          "JWT Authentication",
+          "Async Storage",
+          "API",
+          "Paginação",
+          "Victory Charts",
+          "Expo Router",
+          "EAS Build",
+          "Power BI",
+          "Axios",
+      ],
+      technologies: ["React Native (React/TypeScript)", "Expo", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird", "NodeJS", "Express"],
+      images: [mobile2],
+      techIcons: [reactIcon, tsIcon, express, nodejs]
+    },
+    {
+      title: "Site Institucional - Atip",
+      repositorio: null,
+      deploy: "https://atipinformatica.com.br/",
+      year: "2025",
+      description: "Site vitrine para detalhar serviços da empresa, áreas de atuação e contato.",
+      features: [
+          "Media Queries",
+          "AVIF images",
+          "SPA (Single Page Application)",
+          "Shadcn"
+      ],
+      technologies: ["NextJS (React/TypeScript)", "TailwindCSS"],
+      images: [atip1, atip2, atip3, atip4, atip5],
+      techIcons: [nextIcon, reactIcon, tsIcon]
+    },
+    {
       title: "Sistema de QUIZ",
       repositorio: "https://github.com/luisrossim/quiz",
       deploy: null,
       year: "2024",
       description: `Um sistema de gestão para jogos QUIZ.`,
       features: [
-          { name: "Arquitetura MVC" },
-          { name: "Login, Recuperar senha (CodeIgniter Session)" },
-          { name: "CRUD de eventos, usuários, equipes, questões" },
-          { name: "Logs" },
-          { name: "Ordernar questões (Drag-and-Drop)" },
-          { name: "TinyMCE (Formatador de texto inteligente)" },
-          { name: "Página de relatório de questões" },
-          { name: "Tempo regressivo" },
-          { name: "Recebimento e exibição das respostas das equipes em tempo real" },
-          { name: "Envio de e-mail" },
-          { name: "Layout padronizado e responsivo" },
+          "Arquitetura MVC",
+          "Login, Recuperar senha (CodeIgniter Session)",
+          "CRUD de eventos, usuários, equipes, questões",
+          "Logs",
+          "Ordernar questões (Drag-and-Drop)",
+          "TinyMCE (Formatador de texto inteligente)",
+          "Página de relatório de questões",
+          "Tempo regressivo",
+          "Recebimento e exibição das respostas das equipes em tempo real",
+          "Envio de e-mail",
+          "Layout padronizado e responsivo",
       ],
       technologies: ["CodeIgniter (PHP)", "JavaScript", "MySQL", "Bootstrap", "JQuery"],
       images: [quiz1, quiz2, quiz3, quiz4, quiz5, quiz6, quiz7],
       techIcons: [ciIcon, phpIcon, jsIcon, mysqlIcon]
     },
     {
-      id: 3,
+      title: "Aplicativo controle de estoque",
+      repositorio: null,
+      deploy: null,
+      year: "2025",
+      description: "Um aplicativo de controle de estoque que consome uma API feita com NodeJs Express integrada ao banco de dados Firebird local.",
+      features: [
+          "JWT Authentication",
+          "Async Storage",
+          "Ler Bar Code",
+          "Ler QR Code",
+          "ExpressJS API",
+          "Expo Router",
+          "EAS Build",
+          "Axios",
+      ],
+      technologies: ["React Native (React/TypeScript)", "Expo", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird", "NodeJS", "Express"],
+      images: [mobile],
+      techIcons: [reactIcon, tsIcon, express, nodejs]
+    },
+    {
       title: "Sistema Parcerias",
       repositorio: null,
       deploy: null,
       year: "2023 - 2024",
       description: `O sistema Parcerias é uma plataforma integrada para facilitar a criação, gestão e acompanhamento de propostas e parcerias entre os campi do Instituto Federal do Espírito Santo e empresas.`,
       features: [
-          { name: "Cadastro, Login, Recuperar senha (ngx-cookies, JWT)" },
-          { name: "Fluxo de estados com State Pattern" },
-          { name: "Filtrar propostas e parcerias com paginação" },
-          { name: "Upload de arquivos" },
-          { name: "Envio de e-mails automáticos customizáveis" },
-          { name: "Página para relatórios e gráficos estatísticos (Chart.js, PrimeNG)" },
-          { name: "4 atores" },
+          "Cadastro, Login, Recuperar senha (ngx-cookies, JWT)",
+          "Fluxo de estados com State Pattern",
+          "Filtrar propostas e parcerias com paginação",
+          "Upload de arquivos",
+          "Envio de e-mails automáticos customizáveis",
+          "Página para relatórios e gráficos estatísticos (Chart.js, PrimeNG)",
+          "4 atores",
       ],
       technologies: ["Angular 15 (TypeScript)", "Spring (Java)", "MySQL", "PrimeNG", "JQuery"],
       images: [parcerias1, parcerias2, parcerias3, parcerias4, parcerias5],
       techIcons: [angularIcon, springIcon, mysqlIcon]
     },
     {
-      id: 4,
       title: "Zun (JS Vanilla)",
       repositorio: "https://github.com/luisrossim/zun-js-vanilla",
       deploy: "https://luisrossim.github.io/zun-js-vanilla",
       year: "2024",
       description: `Uma aplicação com javascript vanilla para treinar conceitos e organização de código. Com uma separação de responsabilidades referente a manipulação de dom, localstorage e tratamento de dados.`,
       features: [
-          { name: "Lista de tarefas" },
-          { name: "Calculadora" },
-          { name: "Formulário" },
-          { name: "E-commerce" },
-          { name: "Fetch" },
-          { name: "Async/Await" },
-          { name: "Validações" },
-          { name: "Modal" },
-          { name: "LocalStorage" },
-          { name: "JSON" }
+          "Lista de tarefas",
+          "Calculadora",
+          "Formulário",
+          "E-commerce",
+          "Fetch",
+          "Async/Await",
+          "Validações",
+          "Modal",
+          "LocalStorage",
+          "JSON"
       ],
       technologies: ["JavaScript", "TailwindCSS", "Vite"],
       images: [zun1, zun2, zun3, zun4, zun5, zun6 ],
       techIcons: [jsIcon]
     },
     {
-      id: 5,
       title: "Eletrônica v1",
       repositorio: "https://github.com/luisrossim/eletronica-java",
       deploy: null,
       year: "2023",
       description: `Um sistema de gestão com java vanilla referente ao conserto de eletrônicos, venda de reformados e controle geral. Projeto realizado para fins de aprendizagem da programação orientada a objetos e hibernate.`,
       features: [
-          { name: "Login" },
-          { name: "CRUD de eletronicos" },
-          { name: "CRUD de serviço" },
-          { name: "CRUD de vendas" },
-          { name: "Hibernate para manipular dados" }
+          "Login",
+          "CRUD de eletronicos",
+          "CRUD de serviço",
+          "CRUD de vendas",
+          "Hibernate para manipular dados"
       ],
       technologies: ["Java", "Java Swing", "Hibernate", "JasperReport", "MySQL"],
       images: [ele1, ele2, ele3],
