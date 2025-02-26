@@ -14,7 +14,7 @@ interface TechSectionStringProps {
 const TechSection = ({ title, techData }: TechSectionProps) => (
     <div className="flex flex-col gap-3 text-slate-300 my-2">
         <div className="flex items-center justify-between gap-2">
-            <h1 className="text-2xl font-semibold">{title}</h1>
+            <h1 className="text-2xl">{title}</h1>
             <span className="font-extralight">({techData.length})</span>
         </div>
         { techData.map((tech) => (
@@ -30,12 +30,12 @@ const TechSection = ({ title, techData }: TechSectionProps) => (
 
 const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
     <div>
-        <h2 className="text-xl md:text-2xl font-semibold mb-1">
-            {title} <small className="font-extralight">({techData.length})</small>
+        <h2 className="text-xl mb-1">
+            {title} <small className="font-light">({techData.length})</small>
         </h2>
         <div className="flex flex-wrap gap-1">
             { techData.map((outro, index) => (
-                <span key={index} className="font-light text-neutral-300">
+                <span key={index}>
                     {outro}
                     {((index + 1) == techData.length) ? "." : ", "}
                 </span>
@@ -46,13 +46,11 @@ const TechSectionString = ({ title, techData }: TechSectionStringProps) => (
 
 export function Techs(){
     return (
-        <section className="container max-w-[90rem] mx-auto px-0 md:px-6 pb-36">
-            <div className="flex flex-col gap-12 rounded-none md:rounded-2xl p-8 bg-slate-800 text-slate-200">
-                <TechSection title="Linguagens" techData={linguagens} />
-                <TechSection title="Ferramentas, Bibliotecas e Plataformas" techData={ferramentas} />
-                <TechSection title="Banco de dados" techData={databases} />
-                <TechSectionString title="Outros" techData={outros} />
-            </div>
+        <section className="flex flex-col gap-12 p-8 bg-slate-800 text-gray-400">
+            <TechSection title="Linguagens" techData={linguagens} />
+            <TechSection title="Ferramentas, Bibliotecas e Plataformas" techData={ferramentas} />
+            <TechSection title="Banco de dados" techData={databases} />
+            <TechSectionString title="Outros" techData={outros} />
         </section>
     )
 }

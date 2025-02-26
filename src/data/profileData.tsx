@@ -4,7 +4,7 @@ import atip from '../assets/atip.png';
 
 export const profileData = {
     nome: "Luis Gustavo Leal Rossim",
-    area: "Web Developer",
+    area: "Full-Stack Developer",
     linkedin: "https://www.linkedin.com/in/luisrossim/",
     github: "https://github.com/luisrossim",
     email: "luisrossim23@gmail.com",
@@ -13,26 +13,26 @@ export const profileData = {
             image: ifes,
             instituicao: "IFES - Instituto Federal do Espírito Santo",
             curso: "Bacharelado em Sistemas de Informação",
-            local: "Campus Colatina (Presencial)",
+            local: "Campus Colatina",
             duracao: "2021 - 2024 (4 anos)"
         }
     ],
     experiencia: [
+        {
+            image: atip,
+            empresa: "ATIP",
+            cargo: "Full-Stack Developer",
+            tipo: "Contrato",
+            duracao: "2025",
+            descricao: "Atuo no planejamento e desenvolvimento de sistemas, aplicativos, APIs e sites sob demanda, liderando a escolha das tecnologias mais adequadas para cada projeto. Utilizo Angular, Next.js, React Native, Java Spring, Node.js, PostgreSQL e Firebird para garantir soluções eficientes."
+        },
         {
             image: leds,
             empresa: "LEDS",
             cargo: "Front-End Developer (Angular 15)",
             tipo: "Estágio (Híbrido)",
             duracao: "2023 - 2024 (1 ano e 8 meses)",
-            descricao: "Desenvolvimento do sistema utilizando as ferramentas Angular 15 e Java Spring. Projetando, desenvolvendo e testando novas funcionalidades, criando interfaces e componentes responsivos, corrigindo falhas visuais e funcionais. Participação em levantamento de requisitos juntamente com os usuários. Participei na integração do backend, propondo melhores práticas, correções e validações garantindo um ecossistema escalável. Adquiri experiência em web design responsivo, criação de relatórios interativos, criação de diagramas de estado e de casos de uso, além de boas práticas de segurança para garantir um sistema seguro e eficiente. Também foi possível adquirir experiência com ferramentas de controle de gestão e versão, Trello e Git."
-        },
-        {
-            image: atip,
-            empresa: "ATIP",
-            cargo: "FullStack Developer",
-            tipo: "Contrato",
-            duracao: "2025",
-            descricao: "Planejando e desenvolvendo sistemas, aplicativos, API's e sites sob demanda, utilizando as tecnologias: Angular, NextJS, React Native, Java Spring, NodeJS, PostgreeSQL, Firebird."
+            descricao: "Fui responsável pelo desenvolvimento do sistema utilizando as ferramentas Angular 15 e Java Spring. Projetando, desenvolvendo e testando novas funcionalidades, criando interfaces e componentes responsivos, corrigindo falhas visuais e funcionais. Participando na integração com o backend, propondo correções e validações garantindo um ecossistema escalável. Adquiri experiência em web design responsivo, criação de relatórios interativos, criação de diagramas de estado e de casos de uso, adotando boas práticas de segurança, manutenibilidade e performance. Adquiri experiência com ferramentas de controle de gestão (Trello) e versão (Git/Github)."
         }
     ]
 }

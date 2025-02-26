@@ -10,7 +10,7 @@ export function Techitem({ name, icon, progress }: TechItemProps){
     return (
         <div className="flex items-center gap-2">
             <img className="w-[20px]" src={icon} alt={name} />
-            <p className="font-light text-slate-300 w-[120px]">{name}</p>
+            <p className="text-slate-400 w-[120px]">{name}</p>
             <Progress value={progress} />
         </div>
     )

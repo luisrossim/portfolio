@@ -1,4 +1,4 @@
-import { Calendar, Check, Cog, Github, Globe, Moon, Sparkles } from "lucide-react";
+import { Calendar, Check, Cog, Github, Globe } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 
 interface ProjectItemProps {
@@ -15,7 +15,7 @@ interface ProjectItemProps {
 
 export function ProjectItem({...props}: ProjectItemProps) {
   return (
-    <div className="bg-slate-100 p-6 border rounded-xl">
+    <div className="bg-slate-50 border p-6">
       <div className="flex flex-col gap-2">
         <div className="flex flex-wrap gap-4 border-b pb-6">
           { props.techIcons.map((icon) => (
@@ -32,13 +32,13 @@ export function ProjectItem({...props}: ProjectItemProps) {
           { props.repositorio 
             ? (
               <div className="flex">
-                <a href={props.repositorio} target='_blank' className="flex items-center gap-2 bg-sky-600 text-slate-100 font-medium text-sm rounded-full px-4 py-2">
+                <a href={props.repositorio} target='_blank' className="flex items-center gap-2 bg-sky-600 text-slate-100 font-medium text-sm px-4 py-2">
                   <Github size={15} /> Repositório
                 </a>
               </div>
             ) 
             : (
-              <div className="bg-slate-400 text-slate-100 font-medium text-sm rounded-full px-4 py-2">
+              <div className="bg-slate-400 text-slate-100 font-medium text-sm px-4 py-2">
                   Privado
               </div>
             )
@@ -46,7 +46,7 @@ export function ProjectItem({...props}: ProjectItemProps) {
 
           { props.deploy && (
             <div className="flex items-center">
-              <a href={props.deploy} target='_blank' className="flex items-center gap-2 bg-emerald-600 text-slate-100 font-medium text-sm rounded-full px-4 py-2">
+              <a href={props.deploy} target='_blank' className="flex items-center gap-2 bg-emerald-600 text-slate-100 font-medium text-sm px-4 py-2">
                   <Globe size={15} /> Deploy
                 </a>
             </div>
@@ -61,20 +61,23 @@ export function ProjectItem({...props}: ProjectItemProps) {
       <div className="grid grid-cols-1 gap-8">
         <div className="py-4">
           <h3 className="flex items-center gap-2 text-lg font-medium text-slate-700 mb-2">
-            <Sparkles size={20} /> Principais funcionalidades:
+            Principais funcionalidades:
           </h3>
-          <ul className="flex flex-col gap-2 border-l ml-[0.70rem] pl-4">
+          <ul className="flex flex-col gap-2 border-l ml-1 pl-4">
             {props.features.map((item, index) => (
               <li key={index} className="flex items-center gap-2">
-                <Check size={15} className="bg-green-500 text-white rounded-full" /> {item}
+                <div>
+                  <Check size={15} className="bg-green-500 text-white" />
+                </div>
+                <p>{item}</p>
               </li>
             ))}
           </ul>
 
           <h3 className="flex items-center gap-2 text-lg font-medium text-slate-700 mt-6 mb-2">
-            <Moon size={"20px"} /> Tecnologias:
+            Tecnologias:
           </h3>
-          <ul className="flex flex-col gap-2 border-l ml-[0.70rem] pl-4">
+          <ul className="flex flex-col gap-2 border-l ml-1 pl-4">
             {props.technologies.map((item, index) => (
               <li key={index} className="flex items-center gap-2">
                 <Cog size={15} className="text-slate-600" /> {item}
