@@ -24,15 +24,23 @@ export const profileData = {
             cargo: "Full-Stack Developer",
             tipo: "Contrato",
             duracao: "2025",
-            descricao: "Atuo no planejamento e desenvolvimento de sistemas, aplicativos, APIs e sites sob demanda, liderando a escolha das tecnologias mais adequadas para cada projeto. Utilizo Angular, Next.js, React Native, Java Spring, Node.js, PostgreSQL e Firebird para garantir soluções eficientes."
+            descricao: `Atuo no planejamento e desenvolvimento de sistemas, aplicativos, APIs e sites sob demanda, utilizando tecnologias modernas para criar soluções. Tenho impacto direto na criação e integração de novas ferramentas de gestão para empresas parceiras, transformando dados brutos em insights valiosos de forma interativa, permitindo um acompanhamento estratégico e otimizado das operações.
+
+            Além do desenvolvimento de novos projetos, também atuo na atualização e modernização das tecnologias existentes na empresa, garantindo melhor desempenho, segurança e alinhamento com as melhores práticas atuais.
+
+            Utilizo ferramentas como Angular, React, React Native, Java Spring, Node.js, Express, PostgreSQL, Firebird, Jest e Docker.`
         },
         {
             image: leds,
             empresa: "LEDS",
-            cargo: "Front-End Developer (Angular 15)",
+            cargo: "Front-End Developer",
             tipo: "Estágio (Híbrido)",
             duracao: "2023 - 2024 (1 ano e 8 meses)",
-            descricao: "Fui responsável pelo desenvolvimento do sistema utilizando as ferramentas Angular 15 e Java Spring. Projetando, desenvolvendo e testando novas funcionalidades, criando interfaces e componentes responsivos, corrigindo falhas visuais e funcionais. Participando na integração com o backend, propondo correções e validações garantindo um ecossistema escalável. Adquiri experiência em web design responsivo, criação de relatórios interativos, criação de diagramas de estado e de casos de uso, adotando boas práticas de segurança, manutenibilidade e performance. Adquiri experiência com ferramentas de controle de gestão (Trello) e versão (Git/Github)."
+            descricao: `Atuei no desenvolvimento da plataforma Parcerias do Instituto Federal do Espírito Santo, utilizando as ferramentas Angular e Java Spring. Fui responsável pelo desenvolvimento, manutenção, testes de novas funcionalidades, criação de interfaces e componentes responsivos, além da correção de falhas visuais e funcionais.
+
+            Contribuí para a integração eficiente com o backend, propondo correções e validações que garantiram um ecossistema escalável. Durante esse período, adquiri experiência em API REST, JWT, web design responsivo, criação de relatórios interativos, modelagem de diagramas de estado e casos de uso, padrões de projetos, princípios SOLID, paginação e autenticação.
+
+            Além disso, desenvolvi habilidades no uso de ferramentas de controle de gestão (Trello) e controle de versão (Git/GitHub), otimizando a organização e colaboração no desenvolvimento do projeto.`
         }
     ]
 }

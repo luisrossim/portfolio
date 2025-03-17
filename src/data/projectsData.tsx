@@ -42,6 +42,7 @@ import jsIcon from "../assets/icon-js.png"
 import mysqlIcon from "../assets/icon-mysql.png"
 import postgreIcon from "../assets/icon-postgre.png"
 import mobile from "../assets/mobile.png";
+import mobile1 from "../assets/mobile1.png";
 import mobile2 from "../assets/mobile2.png";
 
 export const projectsData = [
@@ -68,7 +69,7 @@ export const projectsData = [
       title: "Eletrônica",
       repositorio: "https://github.com/luisrossim/eletron",
       deploy: null,
-      year: "2024 - 2025",
+      year: "2024",
       description: "Sistema protótipo para a gestão de uma eletrônica.",
       features: [
           "Login (ngx-cookies, JWT)",
@@ -120,16 +121,16 @@ export const projectsData = [
       features: [
           "JWT Authentication",
           "Async Storage",
-          "API",
           "Paginação",
+          "Refresh Token",
           "Victory Charts",
+          "ExpressJS API",
           "Expo Router",
           "EAS Build",
-          "Power BI",
-          "Axios",
+          "Axios"
       ],
       technologies: ["React Native (React/TypeScript)", "Expo", "NodeJS", "Express", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird"],
-      images: [mobile2],
+      images: [mobile1, mobile2],
       techIcons: [reactIcon, tsIcon, express, nodejs]
     },
     {

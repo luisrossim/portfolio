@@ -18,8 +18,8 @@ import express from '../assets/express.svg';
 export const linguagens = [
     { name: 'HTML', icon: html, progress: 100 },
     { name: 'CSS', icon: css, progress: 100 },
-    { name: 'JavaScript', icon: js, progress: 90 },
-    { name: 'TypeScript', icon: ts, progress: 90 },
+    { name: 'JavaScript', icon: js, progress: 95 },
+    { name: 'TypeScript', icon: ts, progress: 95 },
     { name: 'Java', icon: java, progress: 80 },
     { name: 'PHP', icon: php, progress: 60 }
 ]
@@ -29,10 +29,10 @@ export const ferramentas = [
     { name: 'Spring', icon: spring, progress: 90 },
     { name: 'React', icon: react, progress: 90 },
     { name: 'NextJS', icon: next, progress: 80 },
-    { name: 'NodeJS', icon: nodejs, progress: 75 },
-    { name: 'Express', icon: express, progress: 75 },
-    { name: 'React Native', icon: react, progress: 70 },
-    { name: 'CodeIgniter', icon: ci, progress: 60 }
+    { name: 'NodeJS', icon: nodejs, progress: 80 },
+    { name: 'Express', icon: express, progress: 80 },
+    { name: 'React Native', icon: react, progress: 75 },
+    { name: 'CodeIgniter', icon: ci, progress: 65 }
 ]
 
 export const databases = [
@@ -42,6 +42,6 @@ export const databases = [
 ]
 
 export const outros = [
-    'JQuery', 'Flutter', 'Expo', 'NGINX', 'API REST', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
-    'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Firebird'
+    'JQuery', 'Expo', 'NGINX', 'API REST', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
+    'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Firebird', 'Docker', 'Jest'
 ]
