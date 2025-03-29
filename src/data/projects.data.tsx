@@ -47,6 +47,30 @@ import mobile2 from "../assets/mobile2.png";
 
 export const projectsData = [
     {
+      title: "Aplicativo para gestão financeira",
+      repositorio: null,
+      deploy: null,
+      year: "2025",
+      description: "Um aplicativo para extrair informações e acompanhar as operações da sua empresa. Com dashboards de vendas, tipo de pagamento, vendedor, itens, etc. Filtros para acompanhar vendas, caixa e recebimentos.",
+      features: [
+          "ExpressJS API",
+          "JWT Authentication",
+          "Async Storage",
+          "Paginação",
+          "Refresh Token",
+          "Victory Charts",
+          "Request Limiter",
+          "Pino (logger)",
+          "Jest (tests)",
+          "Expo Router",
+          "EAS Build",
+          "Axios"
+      ],
+      technologies: ["React Native (React/TypeScript)", "Expo", "NodeJS", "Express", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird"],
+      images: [mobile1, mobile2],
+      techIcons: [reactIcon, tsIcon, express, nodejs]
+    },
+    {
       title: "Sistema Parcerias",
       repositorio: null,
       deploy: null,
@@ -113,27 +137,6 @@ export const projectsData = [
       techIcons: [ciIcon, phpIcon, jsIcon, mysqlIcon]
     },
     {
-      title: "Aplicativo para gestão financeira",
-      repositorio: null,
-      deploy: null,
-      year: "2025",
-      description: "Um aplicativo para extrair informações e acompanhar as operações da sua empresa. Com dashboards de vendas, tipo de pagamento, vendedor, itens, etc. Filtros para acompanhar vendas, caixa e recebimentos.",
-      features: [
-          "JWT Authentication",
-          "Async Storage",
-          "Paginação",
-          "Refresh Token",
-          "Victory Charts",
-          "ExpressJS API",
-          "Expo Router",
-          "EAS Build",
-          "Axios"
-      ],
-      technologies: ["React Native (React/TypeScript)", "Expo", "NodeJS", "Express", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird"],
-      images: [mobile1, mobile2],
-      techIcons: [reactIcon, tsIcon, express, nodejs]
-    },
-    {
       title: "Aplicativo controle de estoque",
       repositorio: null,
       deploy: null,
@@ -195,7 +198,7 @@ export const projectsData = [
       title: "Eletrônica (Java)",
       repositorio: "https://github.com/luisrossim/eletronica-java",
       deploy: null,
-      year: "2023",
+      year: "2022 - 2023",
       description: `Um sistema de gestão com java vanilla referente ao conserto de eletrônicos, venda de reformados e controle geral. Projeto realizado para fins de aprendizagem da programação orientada a objetos e hibernate.`,
       features: [
           "Login",
