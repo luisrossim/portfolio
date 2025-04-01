@@ -44,6 +44,7 @@ import postgreIcon from "../assets/icon-postgre.png"
 import mobile from "../assets/mobile.png";
 import mobile1 from "../assets/mobile1.png";
 import mobile2 from "../assets/mobile2.png";
+import mobile3 from "../assets/mobile3.png";
 
 export const projectsData = [
     {
@@ -67,7 +68,7 @@ export const projectsData = [
           "Axios"
       ],
       technologies: ["React Native (React/TypeScript)", "Expo", "NodeJS", "Express", "PM2 (Gerenciador de processos)", "Windows Server", "Firebird"],
-      images: [mobile1, mobile2],
+      images: [mobile1, mobile2, mobile3],
       techIcons: [reactIcon, tsIcon, express, nodejs]
     },
     {

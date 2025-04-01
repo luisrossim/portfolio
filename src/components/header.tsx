@@ -33,7 +33,7 @@ export function Header(){
                                 </div>
                                 <div className="flex flex-col gap-1 pl-5 ml-4 border-l border-blue-400 pb-8">
                                     {item.descricao.map((desc, index) => (
-                                        <p key={index} className="text-neutral-600">
+                                        <p key={index} className="text-sm md:text-base text-neutral-600">
                                             {desc}
                                         </p>
                                     ))}

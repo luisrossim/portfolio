@@ -23,7 +23,7 @@ export const ExperienciaElement = (props: ExperienciaElementProps) => {
         <>
             <Dialog>
                 <DialogTrigger className="w-full text-start group">
-                    <div className="flex flex-col gap-1 bg-white group-hover:bg-blue-50 transition-all duration-300 ease-out border-blue-200 border py-6 pl-6 pr-12 text-neutral-700 relative">
+                    <div className="flex flex-col bg-white group-hover:bg-blue-50 transition-all duration-300 ease-out border-blue-200 border py-6 pl-6 pr-12 text-neutral-700 relative">
                         <div className="flex items-center gap-2 font-medium text-slate-900">
                             <img width={'20px'} src={props.image} alt="exp" />
                             <p className='text-lg'>
@@ -52,7 +52,7 @@ export const ExperienciaElement = (props: ExperienciaElementProps) => {
                                 </div>
                             </div>
                         </DialogTitle>
-                        <DialogDescription className="text-start">
+                        <DialogDescription className="text-sm md:text-base text-start">
                             {props.descricao}
                         </DialogDescription>
                     </DialogHeader>
