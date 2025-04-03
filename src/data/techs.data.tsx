@@ -27,11 +27,10 @@ export const linguagens = [
 export const ferramentas = [
     { name: 'Angular', icon: angular, progress: 90 },
     { name: 'Spring', icon: spring, progress: 90 },
-    { name: 'React', icon: react, progress: 90 },
     { name: 'NodeJS', icon: nodejs, progress: 85 },
     { name: 'Express', icon: express, progress: 85 },
+    { name: 'React', icon: react, progress: 85 },
     { name: 'React Native', icon: react, progress: 80 },
-    { name: 'NextJS', icon: next, progress: 80 },
     { name: 'CodeIgniter', icon: ci, progress: 65 }
 ]
 

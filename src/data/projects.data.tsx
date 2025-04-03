@@ -48,11 +48,11 @@ import mobile3 from "../assets/mobile3.png";
 
 export const projectsData = [
     {
-      title: "Aplicativo para gestão financeira",
+      title: "Aplicativo + API para gestão financeira",
       repositorio: null,
       deploy: null,
       year: "2025",
-      description: "Um aplicativo para extrair informações e acompanhar as operações da sua empresa. Com dashboards de vendas, tipo de pagamento, vendedor, itens, etc. Filtros para acompanhar vendas, caixa e recebimentos.",
+      description: "O aplicativo surgiu para resolver um problema real de uma rede de óticas: a dificuldade dos gerentes em acompanhar as operações sem o sistema desktop. Agora, com esse aplicativo propondo uma usabilidade mais confortável, é possível visualizar dashboards, vendas, formas de pagamento, desempenho por vendedor, fluxo de caixa e recebimentos em tempo real. O aplicativo é integrado a uma API privada que se comunica com o banco de dados local da empresa.",
       features: [
           "ExpressJS API",
           "JWT Authentication",
@@ -72,7 +72,7 @@ export const projectsData = [
       techIcons: [reactIcon, tsIcon, express, nodejs]
     },
     {
-      title: "Sistema Parcerias",
+      title: "Plataforma Parcerias IFES",
       repositorio: null,
       deploy: null,
       year: "2023 - 2024",

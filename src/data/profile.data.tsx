@@ -67,11 +67,7 @@ export const profile = {
             cargo: "Full-Stack Developer",
             tipo: "Contrato",
             duracao: "2025",
-            descricao: `Atuo no planejamento e desenvolvimento de sistemas, aplicativos, APIs e sites sob demanda, utilizando tecnologias modernas para criar soluções. Tenho impacto direto na criação e integração de novas ferramentas de gestão para empresas parceiras, transformando dados brutos em insights valiosos de forma interativa, permitindo um acompanhamento estratégico e otimizado das operações.
-
-            Além do desenvolvimento de novos projetos, também atuo na atualização e modernização das tecnologias existentes na empresa, garantindo melhor desempenho, segurança e alinhamento com as melhores práticas atuais.
-
-            Utilizo ferramentas como Angular, React, React Native, Java Spring, Node.js, Express, PostgreSQL, Firebird, Jest e Docker.`
+            descricao: `- Desenvolvo módulos ERP sob demanda e sob medida para empresas parceiras, incluindo sistemas, aplicativos mobile, APIs e sites institucionais, integrando serviços internos e externos. - Implantação de software em infraestrutura on-premises e cloud-based. - Atuo também na reformulação de sistemas legados, proporcionando uma usabilidade mais contemporânea. - Organizo o fluxo de desenvolvimento com Kanban, Git Patterns, Jest e aplicando princípios SOLID, SoC e API Design.`
         },
         {
             image: leds,
@@ -79,11 +75,7 @@ export const profile = {
             cargo: "Front-End Developer",
             tipo: "Estágio (Híbrido)",
             duracao: "2023 - 2024",
-            descricao: `Atuei no desenvolvimento da plataforma Parcerias do Instituto Federal do Espírito Santo, utilizando as ferramentas Angular e Java Spring. Fui responsável pelo desenvolvimento, manutenção, testes de novas funcionalidades, criação de interfaces e componentes responsivos, além da correção de falhas visuais e funcionais.
-
-            Contribuí para a integração eficiente com o backend, propondo correções e validações que garantiram um ecossistema escalável. Durante esse período, adquiri experiência em API REST, JWT, web design responsivo, criação de relatórios interativos, modelagem de diagramas de estado e casos de uso, padrões de projetos, princípios SOLID, paginação e autenticação.
-
-            Além disso, desenvolvi habilidades no uso de ferramentas de controle de gestão (Trello) e controle de versão (Git/GitHub), otimizando a organização e colaboração no desenvolvimento do projeto.`
+            descricao: `- Atuo no desenvolvimento da plataforma Parcerias do Instituto Federal do Espírito Santo, utilizando Angular e Java Spring. - Responsável pelo desenvolvimento, manutenção, testes de novas funcionalidades, criação de interfaces e componentes responsivos, além da correção de falhas visuais e funcionais. - Colaboração com a equipe Back-End, propondo fluxos e validações que garantem um ecossistema escalável. - Atuação com API REST, JWT, web design responsivo, criação de relatórios interativos, modelagem de diagramas de estado e casos de uso, padrões de projetos, princípios SOLID, arquitetura em camadas, paginação, autenticação e agendamento de tarefas. Utilização de ferramentas de gestão Kanban e versionamento com Git/GitHub.`
         }
     ]
 }
