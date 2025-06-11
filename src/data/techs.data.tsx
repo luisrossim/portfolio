@@ -10,21 +10,21 @@ export const linguagens = [
 ]
 
 export const ferramentas = [
-    { name: 'Angular', icon: Icons.Angular, progress: 97 },
-    { name: 'Spring', icon: Icons.Spring, progress: 90 },
-    { name: 'NodeJS', icon: Icons.Nodejs, progress: 90 },
-    { name: 'Express', icon: Icons.Express, progress: 90 },
-    { name: 'React', icon: Icons.React, progress: 85 },
+    { name: 'Angular 15+', icon: Icons.Angular, progress: 97 },
+    { name: 'NodeJS', icon: Icons.Nodejs, progress: 95 },
+    { name: 'Express', icon: Icons.Express, progress: 95 },
+    { name: 'React', icon: Icons.React, progress: 90 },
+    { name: 'Spring', icon: Icons.Spring, progress: 80 },
     { name: 'React Native', icon: Icons.React, progress: 75 },
     { name: 'CodeIgniter', icon: Icons.CI, progress: 65 }
 ]
 
 export const databases = [
-    { name: 'PostgreSQL', icon: Icons.Postgre, progress: 90 },
-    { name: 'MySQL', icon: Icons.Mysql, progress: 90 }
+    { name: 'PostgreSQL', icon: Icons.Postgre, progress: 95 },
+    { name: 'MySQL', icon: Icons.Mysql, progress: 80 }
 ]
 
 export const outros = [
-    'AWS', 'Docker', 'Jest', 'JQuery', 'Expo', 'NGINX', 'API REST', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
+    'API REST', 'AWS', 'Docker', 'Jest', 'JQuery', 'Expo', 'NGINX', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
     'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Firebird'
 ]

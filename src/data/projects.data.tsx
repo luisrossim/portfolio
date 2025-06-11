@@ -3,6 +3,32 @@ import { Image } from "@/utils/images";
 
 export const projectsData = [
     {
+      title: "Plataforma para gestão de ordens de serviço",
+      repositorio: null,
+      deploy: null,
+      year: "2025",
+      description: "Uma plataforma para gerenciar clientes, usuários, materiais e ordens de serviço, sendo possível vincular técnicos para determinadas etapas do fluxo de uma OS e armazenar imagens e documentos relacionados a assistência técnica e orçamento de clientes diretamente na AWS S3.",
+      features: [
+          "Shadcn",
+          "React Hook Form",
+          "Zod",
+          "Axios",
+          "React Context",
+          "Prisma",
+          "Multer",
+          "JWT HTTPOnly",
+          "Request Limiter",
+          "AWS S3 Request Presigner",
+          "State Pattern",
+          "Winston (logger)",
+          "Jest (tests)",
+          "Global Exceptions Handler"
+      ],
+      technologies: ["React", "Express.js", "PostgreSQL", "AWS S3", "Railway"],
+      images: [Image.Irri1, Image.Irri2, Image.Irri3],
+      techIcons: [Icons.React, Icons.TS, Icons.Nodejs, Icons.Express, Icons.Postgre, Icons.AWS]
+    },
+    {
       title: "Controle de estoque (PWA + API)",
       repositorio: "https://github.com/luisrossim/lobo-pwa",
       deploy: null,

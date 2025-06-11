@@ -43,7 +43,7 @@ export const profile = {
             subtitle: "SaaS, AWS e DevOps",
             descricao: [
                 `Desenvolvendo sistemas web, aplicativos mobile e APIs integrando serviços para empresas locais.`,
-                `Aprofundando em SaaS, Micro-serviços, EC2, S3, CI/CD, Docker e Testes automatizados.`
+                `Aprofundando em AWS EC2, AWS RDS, AWS S3, micro-serviços, CI/CD, Docker e Testes automatizados.`
             ]
         }
     ],

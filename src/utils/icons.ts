@@ -16,6 +16,7 @@ import Express from '../assets/icons/express.svg';
 import Github from '../assets/icons/github.svg'
 import Linkedin from '../assets/icons/linkedin.svg'
 import Logo from '../assets/icons/logo.svg'
+import AWS from '../assets/icons/aws.svg'
 
 export const Icons = {
   Spring,
@@ -35,5 +36,6 @@ export const Icons = {
   Express,
   Github,
   Linkedin,
-  Logo
+  Logo,
+  AWS
 }

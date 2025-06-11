@@ -8,6 +8,7 @@ interface NavItemProps {
   redirectTo: string;
   closeMenu?: () => void
   icon?: boolean
+  blank?: boolean
 }
 
 const NavItem = (props: NavItemProps) => {
@@ -17,6 +18,7 @@ const NavItem = (props: NavItemProps) => {
             href={props.redirectTo} 
             onClick={props.closeMenu}
             className="relative group"
+            {...(props.blank ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         >
             <span className="flex items-center group-hover:text-blue-600 duration-300 text-2xl lg:text-base">
                 <span>{props.title}</span>
@@ -87,8 +89,8 @@ export function Nav() {
                             <NavItem title="Projetos" redirectTo="#projetos" closeMenu={closeMenu} />
                             <NavItem title="Tecnologias" redirectTo="#tecnologias" closeMenu={closeMenu} />
                             <NavItem title="Trajetoria" redirectTo="#trajetoria" closeMenu={closeMenu} />
-                            <NavItem title="Github" redirectTo={profile.github} icon={true} />
-                            <NavItem title="Linkedin" redirectTo={profile.linkedin} icon={true} />
+                            <NavItem title="Github" redirectTo={profile.github} icon={true} blank={true} />
+                            <NavItem title="Linkedin" redirectTo={profile.linkedin} icon={true} blank={true} />
                         </ul>
                     </nav>
                 </div>

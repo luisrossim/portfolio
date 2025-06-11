@@ -34,6 +34,9 @@ import Mobile10 from "../assets/images/mobile10.png";
 import Lobo1 from "../assets/images/lobo1.png";
 import Lobo2 from "../assets/images/lobo2.png";
 import Lobo3 from "../assets/images/lobo3.png";
+import Irri1 from '../assets/images/irri1.png';
+import Irri2 from '../assets/images/irri2.png';
+import Irri3 from '../assets/images/irri3.png';
 import IFES from '../assets/images/ifes.png';
 import LEDS from '../assets/images/leds.png';
 import ATIP from '../assets/images/atip.png';
@@ -79,5 +82,8 @@ export const Image = {
   IFES,
   LEDS,
   ATIP,
-  Hero
+  Hero,
+  Irri1,
+  Irri2,
+  Irri3
 };
