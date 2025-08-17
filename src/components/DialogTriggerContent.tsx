@@ -5,7 +5,7 @@ import { Calendar, Check, Cog } from "lucide-react";
 
 export function DialogTriggerContent(projeto: ProjetoElementProps){
     return (
-        <DialogTrigger className="flex text-start flex-col w-full h-full hover:bg-slate-100 duration-300 ease-out border-2 p-4">
+        <DialogTrigger className="flex text-start flex-col w-full h-full bg-slate-50 hover:bg-blue-50 transition-colors border p-4">
           <div className="flex justify-center items-center mx-auto">
             <img 
               draggable={false} 

@@ -64,7 +64,7 @@ export function Nav() {
                                 (scrollY > 180 || isMenuOpen) ? "opacity-100 max-h-10" : "opacity-0 max-h-0"
                                 }`}
                             >
-                                <p className="text-xs mt-1">
+                                <p className="text-xs text-blue-600 mt-1">
                                     {profile.area}
                                 </p>
                                 <p className="font-medium">
@@ -88,7 +88,6 @@ export function Nav() {
                         <ul className="flex flex-col p-4 lg:flex-row gap-8 lg:p-0">
                             <NavItem title="Projetos" redirectTo="#projetos" closeMenu={closeMenu} />
                             <NavItem title="Tecnologias" redirectTo="#tecnologias" closeMenu={closeMenu} />
-                            <NavItem title="Trajetoria" redirectTo="#trajetoria" closeMenu={closeMenu} />
                             <NavItem title="Github" redirectTo={profile.github} icon={true} blank={true} />
                             <NavItem title="Linkedin" redirectTo={profile.linkedin} icon={true} blank={true} />
                         </ul>

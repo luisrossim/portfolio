@@ -10,12 +10,12 @@ export const linguagens = [
 ]
 
 export const ferramentas = [
-    { name: 'Angular 15+', icon: Icons.Angular, progress: 97 },
-    { name: 'NodeJS', icon: Icons.Nodejs, progress: 95 },
+    { name: 'React', icon: Icons.React, progress: 95 },
     { name: 'Express', icon: Icons.Express, progress: 95 },
-    { name: 'React', icon: Icons.React, progress: 90 },
-    { name: 'Spring', icon: Icons.Spring, progress: 80 },
-    { name: 'React Native', icon: Icons.React, progress: 75 },
+    { name: 'NodeJS', icon: Icons.Nodejs, progress: 90 },
+    { name: 'Angular', icon: Icons.Angular, progress: 85 },
+    { name: 'React Native', icon: Icons.React, progress: 80 },
+    { name: 'Spring', icon: Icons.Spring, progress: 75 },
     { name: 'CodeIgniter', icon: Icons.CI, progress: 65 }
 ]
 
@@ -25,6 +25,5 @@ export const databases = [
 ]
 
 export const outros = [
-    'API REST', 'AWS', 'Docker', 'Jest', 'JQuery', 'Expo', 'NGINX', 'PrimeNG', 'Bootstrap', 'TailwindCSS', 
-    'Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Firebird'
+    'API REST', 'AWS', 'Docker', 'Github Actions', 'Jest', 'React Router', 'Zod', 'React Query', 'Socket.IO', 'WebSocket', 'Railway', 'Render', 'JQuery', 'Expo', 'NGINX', 'PrimeNG', 'Bootstrap', 'TailwindCSS','Vite', 'MaterializeCSS', 'Figma', 'Hibernate', 'Postman', 'Firebird'
 ]

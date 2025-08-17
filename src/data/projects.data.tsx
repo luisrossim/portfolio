@@ -9,7 +9,7 @@ export const projectsData = [
       year: "2025",
       description: "Uma plataforma para gerenciar clientes, usuários, materiais e ordens de serviço, sendo possível vincular técnicos para determinadas etapas do fluxo de uma OS e armazenar imagens e documentos relacionados a assistência técnica e orçamento de clientes diretamente na AWS S3.",
       features: [
-          "Shadcn",
+          "Tanstack React Query",
           "React Hook Form",
           "Zod",
           "Axios",
@@ -22,6 +22,7 @@ export const projectsData = [
           "State Pattern",
           "Winston (logger)",
           "Jest (tests)",
+          "Shadcn",
           "Global Exceptions Handler"
       ],
       technologies: ["React", "Express.js", "PostgreSQL", "AWS S3", "Railway"],

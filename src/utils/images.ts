@@ -37,10 +37,7 @@ import Lobo3 from "../assets/images/lobo3.png";
 import Irri1 from '../assets/images/irri1.png';
 import Irri2 from '../assets/images/irri2.png';
 import Irri3 from '../assets/images/irri3.png';
-import IFES from '../assets/images/ifes.png';
-import LEDS from '../assets/images/leds.png';
-import ATIP from '../assets/images/atip.png';
-import Hero from '../assets/images/hero.avif';
+import Hero from '../assets/images/hero.jpg';
 
 export const Image = {
   Parcerias1,
@@ -79,9 +76,6 @@ export const Image = {
   Lobo1,
   Lobo2,
   Lobo3,
-  IFES,
-  LEDS,
-  ATIP,
   Hero,
   Irri1,
   Irri2,
